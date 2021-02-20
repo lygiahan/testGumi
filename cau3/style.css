@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wraper_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wraper_content_text{
+    font-size: 20px;
+    max-width:250px;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: underline 3px solid orangered;
+}
+.wraper_content_img{
+    width: 50px;
+}
+
+.wraper_content_img:last-child{
+    transform: rotate(90deg);
+}
